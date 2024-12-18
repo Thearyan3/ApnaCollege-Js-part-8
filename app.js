@@ -48,6 +48,4 @@ let nums = [1, 2, 3, 4, 5, 6, 7, 8, 2, 1, 23, 10, 12];
     return !(el%2 == 0);
  });
 
-// (iv). some function --> 
-// (v). every function --> 
-// (vi). reduce function --> 
+
