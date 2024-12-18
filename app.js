@@ -1,5 +1,5 @@
 // 1. Array methods :- 
-// (i). forEach --> 
+// (i). forEach function --> 
 // let arr = [1, 2, 3, 4, 5];
 
 // arr.forEach((el) => {
@@ -10,26 +10,33 @@
 // }
 // arr.forEach(print);
 
-// let arr1 = [{
-//     name: "Aryan", 
-//     marks: 95
-// },
-//  {
-//     name: "Tarun", 
-//     marks: 59
-// },
-//  {
-//     name: "Arun", 
-//     marks: 81
-// }];
+let arr1 = [{
+    name: "Aryan", 
+    marks: 95
+},
+ {
+    name: "Tarun", 
+    marks: 59
+},
+ {
+    name: "Arun", 
+    marks: 81
+}];
 // arr1.forEach((student) => {
 //     console.log(student);
 // });
 // arr1.forEach((student) => {
 //     console.log(student.marks);
 // });
-// (ii). map --> 
-// (iii). filter --> 
-// (iv). some --> 
-// (v). every --> 
-// (vi). reduce --> 
+// (ii). map function --> 
+// let num = [1, 2, 3, 4];
+// let double = num.map((el) => {
+//     return el*2;
+// });
+// let gpa = arr1.map((el) => {
+//     console.log(el.marks/10);
+// });
+// (iii). filter function --> 
+// (iv). some function --> 
+// (v). every function --> 
+// (vi). reduce function --> 
