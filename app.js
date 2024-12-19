@@ -50,3 +50,10 @@
 
 // (iii). Every function - Returns true if every element of array gives true for some function. Else return false. 
 // (iv). Sum function - Returns true if some element of array gives true for some function. Else return false.
+// (v). Reduce function - Reduce the array to a single value. Syntax : arr.reduce(reducer function with 2 variables for(accumulator, element));
+let nums = [1, 2, 3, 4, 5, 6, 7];
+let finalVal = nums.reduce((res, el) => {
+    console.log(res);
+    return res+el;
+});
+console.log(finalVal);
