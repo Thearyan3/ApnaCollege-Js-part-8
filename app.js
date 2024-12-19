@@ -58,7 +58,7 @@
 // });
 // console.log(finalVal);
 
-let arr = [1, 2, 3, 4, 5, 6, 9, 11, 2, 3, 1];
+// let arr = [1, 2, 3, 4, 5, 6, 9, 11, 2, 3, 1];
 // let max = -1;
 // for(let i=0; i<arr.length; i++){
 //     if(max < arr[i]){
@@ -75,3 +75,10 @@ let arr = [1, 2, 3, 4, 5, 6, 9, 11, 2, 3, 1];
 //     }
 // });
 // console.log(ans);
+
+// Practice Qs 1. Check if all the numbers in an array are multiples of 10.
+let arr = [10, 20, 30, 40, 50];
+let ans = arr.every((el) => {
+    return el%10 == 0;
+});
+console.log(ans);
