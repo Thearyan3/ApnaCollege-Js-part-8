@@ -66,3 +66,12 @@ let arr = [1, 2, 3, 4, 5, 6, 9, 11, 2, 3, 1];
 //     }
 // }
 // console.log(max);
+
+let ans = arr.reduce((max, el) => {
+    if(max > el){
+        return max;
+    }else{
+        return el;
+    }
+});
+console.log(ans);
