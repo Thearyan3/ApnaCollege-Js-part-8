@@ -49,4 +49,4 @@
 //  });
 
 // (iii). Every function - Returns true if every element of array gives true for some function. Else return false. 
-
+// (iv). Sum function - Returns true if some element of array gives true for some function. Else return false.
