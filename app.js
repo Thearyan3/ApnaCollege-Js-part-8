@@ -78,8 +78,19 @@
 
 // Practice Qs 1. Check if all the numbers in an array are multiples of 10.
 let arr = [10, 20, 30, 40, 50];
-let ans = arr.every((el) => el%10 == 0);
+let ans = arr.every((el) => el % 10 == 0);
 console.log(ans);
 
 
 // Practice Qs 2. Create a function to find the min number in an array.
+let arr1 = [10, 20, 30, 40, 50];
+function getMin(arr1) {
+    let finalVal = arr1.reduce((min, el) => {
+        if (min < el) {
+            return min;
+        } else {
+            return el;
+        }
+    });
+    return finalVal;
+}
