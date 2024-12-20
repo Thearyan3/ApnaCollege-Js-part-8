@@ -104,3 +104,9 @@
 // }
 // sum(1);
 // sum(2, 4);
+
+
+
+// 3. Spread - Expands an iterable into multiple values. 
+console.log("aryan");// This is normal string.
+console.log(..."aryan");// This is spread.
