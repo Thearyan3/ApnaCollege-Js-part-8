@@ -1,13 +1,13 @@
-// // // 1. Array methods :- 
+// 1. Array methods :- 
 
-// // // (i). forEach function --> 
+// (i). forEach function --> 
 
-// // let arr = [1, 2, 3, 4, 5];
+//let arr = [1, 2, 3, 4, 5];
 
-// // arr.forEach((el) => {
-// //     console.log(el);
-// // })
-// // let print = function(el) {
+// arr.forEach((el) => {
+//     console.log(el);
+//})
+//let print = function(el) {
 // //     console.log(el);
 // // }
 // // arr.forEach(print);
@@ -95,3 +95,12 @@
 //     return finalVal;
 // }
 // getMin(arr1);
+
+
+
+// 2. Default Parameters - Giving a default value to the arguments. 
+function sum(a, b = 2) {
+    return a+b;
+}
+sum(1);
+sum(2, 4);
