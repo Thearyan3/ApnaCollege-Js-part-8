@@ -133,10 +133,9 @@
 
 // let dataCopy = {...data, id: 123, country: "India"};
 // console.log(data, dataCopy);
-
-let arr1 = [1, 2, 3, 4];
-let obj1 = {...arr1};
-console.log(obj1);
-let char1 = [..."hello"];
-let obj2 = {...char1};
-console.log(obj2);
+// let arr1 = [1, 2, 3, 4];
+// let obj1 = {...arr1};
+// console.log(obj1);
+// let char1 = [..."hello"];
+// let obj2 = {...char1};
+// console.log(obj2);
