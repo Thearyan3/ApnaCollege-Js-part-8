@@ -99,43 +99,43 @@
 
 
 // 2. Default Parameters - Giving a default value to the arguments. 
-// function sum(a, b = 2) {
-//     return a+b;
-// }
-// sum(1);
-// sum(2, 4);
+function sum(a, b = 2) {
+    return a+b;
+}
+sum(1);
+sum(2, 4);
 
 
 
 // 3. Spread - Expands an iterable into multiple values. 
-// console.log("aryan");// This is normal string.
-// console.log(..."aryan");// This is spread.
+console.log("aryan");// This is normal string.
+console.log(..."aryan");// This is spread.
 
-// let arr = [1, 2, 3, 5, 7, 0, -2, -334, 100, 3, 2, 1];
-// console.log(Math.min(...arr));// This is spread
+let arr = [1, 2, 3, 5, 7, 0, -2, -334, 100, 3, 2, 1];
+console.log(Math.min(...arr));// This is spread
 
 // Spread with array literals :- 
-// let arr = [1, 2, 3, 4];
-// let newarr = [...arr];
-// console.log(arr);
-// let char = [..."hello"];
-// console.log(char);
-// let odd = [1, 3, 5, 7];
-// let even = [2, 4, 6, 8];
-// let nums = [...odd, ...even];
-// console.log(nums);
+let arr2 = [1, 2, 3, 4];
+let newarr = [...arr2];
+console.log(arr);
+let char = [..."hello"];
+console.log(char);
+let odd = [1, 3, 5, 7];
+let even = [2, 4, 6, 8];
+let nums = [...odd, ...even];
+console.log(nums);
 
 // Spread with object literals :-
-// let data = {
-//     name: "Aryan", 
-//     email: "aryan@3453gmail.com"
-// };
+let data = {
+    name: "Aryan", 
+    email: "aryan@3453gmail.com"
+};
 
-// let dataCopy = {...data, id: 123, country: "India"};
-// console.log(data, dataCopy);
-// let arr1 = [1, 2, 3, 4];
-// let obj1 = {...arr1};
-// console.log(obj1);
-// let char1 = [..."hello"];
-// let obj2 = {...char1};
-// console.log(obj2);
+let dataCopy = {...data, id: 123, country: "India"};
+console.log(data, dataCopy);
+let arr1 = [1, 2, 3, 4];
+let obj1 = {...arr1};
+console.log(obj1);
+let char1 = [..."hello"];
+let obj2 = {...char1};
+console.log(obj2);
