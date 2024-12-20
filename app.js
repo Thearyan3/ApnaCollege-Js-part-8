@@ -108,5 +108,8 @@
 
 
 // 3. Spread - Expands an iterable into multiple values. 
-console.log("aryan");// This is normal string.
-console.log(..."aryan");// This is spread.
+// console.log("aryan");// This is normal string.
+// console.log(..."aryan");// This is spread.
+
+// let arr = [1, 2, 3, 5, 7, 0, -2, -334, 100, 3, 2, 1];
+// console.log(Math.min(...arr));// This is spread
