@@ -126,10 +126,10 @@
 // console.log(nums);
 
 // Spread with object literals :-
-let data = {
-    name: "Aryan", 
-    email: "aryan@3453gmail.com"
-};
+// let data = {
+//     name: "Aryan", 
+//     email: "aryan@3453gmail.com"
+// };
 
-let dataCopy = {...data, id: 123, country: "India"};
-console.log(data, dataCopy);
+// let dataCopy = {...data, id: 123, country: "India"};
+// console.log(data, dataCopy);
