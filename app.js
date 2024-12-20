@@ -113,3 +113,14 @@
 
 // let arr = [1, 2, 3, 5, 7, 0, -2, -334, 100, 3, 2, 1];
 // console.log(Math.min(...arr));// This is spread
+
+// Spread with array literals :- 
+let arr = [1, 2, 3, 4];
+let newarr = [...arr];
+console.log(arr);
+let char = [..."hello"];
+console.log(char);
+let odd = [1, 3, 5, 7];
+let even = [2, 4, 6, 8];
+let nums = [...odd, ...even];
+console.log(nums);
