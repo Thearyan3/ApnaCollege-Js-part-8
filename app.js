@@ -124,3 +124,5 @@
 // let even = [2, 4, 6, 8];
 // let nums = [...odd, ...even];
 // console.log(nums);
+
+// Spread with object literals :-
