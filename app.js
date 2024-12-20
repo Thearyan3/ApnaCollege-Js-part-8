@@ -99,8 +99,8 @@
 
 
 // 2. Default Parameters - Giving a default value to the arguments. 
-function sum(a, b = 2) {
-    return a+b;
-}
-sum(1);
-sum(2, 4);
+// function sum(a, b = 2) {
+//     return a+b;
+// }
+// sum(1);
+// sum(2, 4);
