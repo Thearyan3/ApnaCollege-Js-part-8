@@ -98,44 +98,91 @@
 
 
 
-// 2. Default Parameters - Giving a default value to the arguments. 
-function sum(a, b = 2) {
-    return a+b;
-}
-sum(1);
-sum(2, 4);
+// // 2. Default Parameters - Giving a default value to the arguments. 
+// function sum(a, b = 2) {
+//     return a+b;
+// }
+// sum(1);
+// sum(2, 4);
 
 
 
-// 3. Spread - Expands an iterable into multiple values. 
-console.log("aryan");// This is normal string.
-console.log(..."aryan");// This is spread.
+// // 3. Spread - Expands an iterable into multiple values. 
+// console.log("aryan");// This is normal string.
+// console.log(..."aryan");// This is spread.
 
-let arr = [1, 2, 3, 5, 7, 0, -2, -334, 100, 3, 2, 1];
-console.log(Math.min(...arr));// This is spread
+// let arr = [1, 2, 3, 5, 7, 0, -2, -334, 100, 3, 2, 1];
+// console.log(Math.min(...arr));// This is spread
 
-// Spread with array literals :- 
-let arr2 = [1, 2, 3, 4];
-let newarr = [...arr2];
-console.log(arr);
-let char = [..."hello"];
-console.log(char);
-let odd = [1, 3, 5, 7];
-let even = [2, 4, 6, 8];
-let nums = [...odd, ...even];
-console.log(nums);
+// // Spread with array literals :- 
+// let arr2 = [1, 2, 3, 4];
+// let newarr = [...arr2];
+// console.log(arr);
+// let char = [..."hello"];
+// console.log(char);
+// let odd = [1, 3, 5, 7];
+// let even = [2, 4, 6, 8];
+// let nums = [...odd, ...even];
+// console.log(nums);
 
-// Spread with object literals :-
-let data = {
-    name: "Aryan", 
-    email: "aryan@3453gmail.com"
-};
+// // Spread with object literals :-
+// let data = {
+//     name: "Aryan", 
+//     email: "aryan@3453gmail.com"
+// };
 
-let dataCopy = {...data, id: 123, country: "India"};
-console.log(data, dataCopy);
-let arr1 = [1, 2, 3, 4];
-let obj1 = {...arr1};
-console.log(obj1);
-let char1 = [..."hello"];
-let obj2 = {...char1};
-console.log(obj2);
+// let dataCopy = {...data, id: 123, country: "India"};
+// console.log(data, dataCopy);
+// let arr1 = [1, 2, 3, 4];
+// let obj1 = {...arr1};
+// console.log(obj1);
+// let char1 = [..."hello"];
+// let obj2 = {...char1};
+// console.log(obj2);
+
+// 4. Rest - Allows a function to take an indefinite number of arguments and bundle them in an Array. 
+// function sum(...args) {
+//     for(let i=0; i<args.length; i++) {
+//         console.log("You gave us: ", args[i]);
+//     }
+// }
+// sum(1, 2, 3, 4, 5, 6);
+
+// function min() {
+//     console.log(arguments);
+//     console.log(arguments.length);
+//     arguments.push(1);
+// }
+
+// function sum(...args) {
+//     return args.reduce((sum, el) => sum+el);
+// }
+
+// function min(msg, ...args) {
+//     console.log(msg);
+//     return args.reduce((min, el) => {
+//         if(min < el) {
+//         return el;
+//     } else {
+//         return min;
+//     }
+// });
+// }
+
+
+// 5. Destructuring - stroring values of array into multiple variables.
+// let names = ["tony", "steve", "aryan", "peter", "bhagat", "ambedkar"];
+// let [winner, runnerup, ...others] = names;
+// console.log(winner);
+// console.log(runnerup);
+// console.log(others);
+
+// const student = {
+//     name: "aryan",
+//     age: 20,
+//     class: 12,
+//     subjects: ["hindi", "english", "maths", "science", "SST"],
+//     username: "aryan@12gmail.com", 
+//     password: "hattbe"
+// }
+// let {username: user, password: secret, city: place = "Delhi"} = student;
