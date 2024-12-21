@@ -15,6 +15,8 @@ let arr1 = [1, 2, 3, 4, 6];
 let newArr = arr1.map((n) => n+5);
 console.log(newArr);
 
+
+
 // Qs 3. Create a new array whose elements are in uppercase of words present in the original array.
 let arr2 = ["aryan", "tanwar", "bhagat", "sahibzaade"];
 let newarr2 = arr2.map((n) => n.toUpperCase());
