@@ -141,48 +141,48 @@
 // console.log(obj2);
 
 // 4. Rest - Allows a function to take an indefinite number of arguments and bundle them in an Array. 
-// function sum(...args) {
-//     for(let i=0; i<args.length; i++) {
-//         console.log("You gave us: ", args[i]);
-//     }
-// }
-// sum(1, 2, 3, 4, 5, 6);
+function sum(...args) {
+    for(let i=0; i<args.length; i++) {
+        console.log("You gave us: ", args[i]);
+    }
+}
+sum(1, 2, 3, 4, 5, 6);
 
-// function min() {
-//     console.log(arguments);
-//     console.log(arguments.length);
-//     arguments.push(1);
-// }
+function min() {
+    console.log(arguments);
+    console.log(arguments.length);
+    arguments.push(1);
+}
 
-// function sum(...args) {
-//     return args.reduce((sum, el) => sum+el);
-// }
+function sum(...args) {
+    return args.reduce((sum, el) => sum+el);
+}
 
-// function min(msg, ...args) {
-//     console.log(msg);
-//     return args.reduce((min, el) => {
-//         if(min < el) {
-//         return el;
-//     } else {
-//         return min;
-//     }
-// });
-// }
+function min(msg, ...args) {
+    console.log(msg);
+    return args.reduce((min, el) => {
+        if(min < el) {
+        return el;
+    } else {
+        return min;
+    }
+});
+}
 
 
 // 5. Destructuring - stroring values of array into multiple variables.
-// let names = ["tony", "steve", "aryan", "peter", "bhagat", "ambedkar"];
-// let [winner, runnerup, ...others] = names;
-// console.log(winner);
-// console.log(runnerup);
-// console.log(others);
+let names = ["tony", "steve", "aryan", "peter", "bhagat", "ambedkar"];
+let [winner, runnerup, ...others] = names;
+console.log(winner);
+console.log(runnerup);
+console.log(others);
 
-// const student = {
-//     name: "aryan",
-//     age: 20,
-//     class: 12,
-//     subjects: ["hindi", "english", "maths", "science", "SST"],
-//     username: "aryan@12gmail.com", 
-//     password: "hattbe"
-// }
-// let {username: user, password: secret, city: place = "Delhi"} = student;
+const student = {
+    name: "aryan",
+    age: 20,
+    class: 12,
+    subjects: ["hindi", "english", "maths", "science", "SST"],
+    username: "aryan@12gmail.com", 
+    password: "hattbe"
+}
+let {username: user, password: secret, city: place = "Delhi"} = student;
